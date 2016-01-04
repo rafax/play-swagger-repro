@@ -1,0 +1,3 @@
+GET    /age                       controllers.Application.age(birthDate:models.BirthDate)
+
+GET    /swagger              controllers.ApiHelpController.getResources
